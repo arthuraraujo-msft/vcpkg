@@ -1,0 +1,13 @@
+diff --git a/CorrelationVector/CMakeLists.txt b/CorrelationVector/CMakeLists.txt
+index 2b32f8b..2c3a0ec 100644
+--- a/CorrelationVector/CMakeLists.txt
++++ b/CorrelationVector/CMakeLists.txt
+@@ -9,7 +9,7 @@ include (CVOptions)
+ include (CVHelpers)
+ 
+ add_global_definitions ()
+-set_global_compile_flags ()
++#set_global_compile_flags ()
+ 
+ set(CORRELATION_VECTOR_VERSION_MAJOR 1)
+ set(CORRELATION_VECTOR_VERSION_MINOR 0)
